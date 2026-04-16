@@ -1,0 +1,22 @@
+{
+    "name": "Terraform Environment",
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "hashicorp.terraform",
+                "github.vscode-pull-request-github",
+                "vscodevim.vim",
+                "ms-vscode.vscode-node-azure-pack"
+            ],
+            "settings": {
+                "terminal.integrated.defaultProfile.linux": "zsh",
+                "workbench.editorAssociations": {
+                    "*.md": "vscode.markdown.preview"
+                }
+            }
+        }
+    },
+    "features": {
+        "ghcr.io/devcontainers/features/terraform:1": {}
+    }
+}

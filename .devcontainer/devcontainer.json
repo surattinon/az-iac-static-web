@@ -5,7 +5,6 @@
             "extensions": [
                 "hashicorp.terraform",
                 "github.vscode-pull-request-github",
-                "vscodevim.vim",
                 "ms-vscode.vscode-node-azure-pack"
             ],
             "settings": {

@@ -23,7 +23,7 @@ resource "azurerm_static_web_app" "nonzaint-aswa1" {
 }
 
 output "deployment_token" {
-  value = azurerm_static_web_app.nonzaint-aswa1.api_key
-  sensitive = true
+  value       = azurerm_static_web_app.nonzaint-aswa1.api_key
+  sensitive   = true
   description = "Copy this value into your GitHub Secrets"
 }
